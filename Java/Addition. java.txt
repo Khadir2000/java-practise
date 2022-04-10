@@ -1,0 +1,23 @@
+import java util.*;
+class Add
+{
+  static void add (int a,int b)
+{
+return a+b;
+}
+}
+class Addition 
+{
+ public static void main(String args [])
+{
+  Add a1= new Add();
+System.out.println(a1.add(3,4));
+}
+}
+class Add1
+{
+  public static void main(String args[])
+{
+ Add.add(3,6);
+}
+}
